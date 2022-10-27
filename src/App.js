@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import SearchBar from './components/SearchBar';
 import Gallery from './components/Gallery';
@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className='App'>
       <SearchBar />
       {message}
       <Gallery />

@@ -1,3 +1,20 @@
+# music_library
+
+## Struture
+
+- **App**
+    - Variables:
+        - Search
+        - Data
+        - Message
+    - **Search Bar**
+        - Variables:
+            - SearchTerm
+    - **Gallery**
+        - **Gallery Item**
+            - Variables:
+                -View
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
